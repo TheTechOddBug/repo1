@@ -1,0 +1,12 @@
+#!/usr/bin/env groovy
+agent any
+
+pipeline {
+  stages {
+    stage ('First stage') {
+      steps {
+        println "Jenkinsfile1"
+      }    
+    }
+  }
+}
